@@ -1,0 +1,9 @@
+#
+# fips-rpmalloc
+#
+---
+exports:
+    header-dirs:
+        - rpmalloc/rpmalloc
+    modules:
+        rpmalloc: .
